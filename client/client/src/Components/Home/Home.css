@@ -1,0 +1,276 @@
+.home {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+body{
+  background-color: white;
+
+}
+#root .home .body-div{
+  width: inherit;
+  height: inherit;
+}
+.home .body-div {
+  overflow: hidden;
+  height: 100%;
+  position:relative;
+}
+
+/* .home .body-div {
+  display: flex;
+} */
+
+.home .body-div  .left-div {
+
+  position:absolute;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  top:5%;
+  left:2.5%;
+  align-items: center;
+}
+
+.home .body-div  .left-div .contents {
+  position: absolute;
+  width: 40%;
+  margin-left: 30%;
+  align-items: center;
+}
+
+.home .body-div .left-div .contents .chat-img {
+  width: 120%;
+  height: 140%;
+  opacity: 0.15;
+  top: 20%;
+  right: 55%;
+  position: absolute;
+}
+
+.home .body-div .left-div .contents .note-img {
+  width: 60%;
+  height: 70%;
+  opacity: 0.15;
+  top: 80%;
+  left: 115%;
+  position: absolute;
+  transform: rotate(-30deg);
+}
+
+.home .body-div .left-div input {
+  padding: 0.5rem;
+  border: 2px solid #d1d1d1;
+  outline: none;
+  border-radius: 10px;
+  color: black;
+  box-shadow:10px 20px 30px #0d4b85;
+background-color: lightskyblue;
+  width: 70%;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  z-index: 100;
+}
+
+.home .body-div .left-div input:focus {
+  border-color: #2cbdc7;
+}
+
+.home .body-div .left-div .home-btn {
+  margin: auto;
+  padding: 0.5rem 1rem;
+
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  border: 2px solid #16c071;
+  background-color: #0d4b85;
+  color: white;
+  transition-duration: 0.4s;
+  z-index: 1;
+  top: 0%;
+    left: 39%;
+    position: absolute;
+}
+
+.home .body-div .left-div .home-btn:hover {
+  background-color: #1b8299;
+  color: white;
+}
+
+.home .body-div  .left-div .start-meet {
+  padding: 1rem 0;
+  position: relative;
+  top: 22%;
+  left: 9%;
+    width: 38%;
+}
+
+.home .body-div  .left-div .join-meet {
+  width: 90%;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .body-div .sign{
+  width: 2%;
+  background-color: black;
+
+}
+.home .body-div .signtext{
+  font-weight: 500;
+  color: black;
+  font-size: 17px;
+}
+.home .body-div .left-div .features {
+ 
+  padding: 5rem;
+  margin-left: 2rem;
+  /* background-color: lightcoral;*/
+} 
+.home .body-div .left-div .features h1{
+  background-color:#0d4b85 ;
+  width: 25%;
+  padding-left: 4px;
+  text-align: center;
+  text-shadow: 2px 2px #0d4b85;
+  color: white;
+  box-shadow:10px 20px 30px palevioletred
+}
+.home .body-div .left-div .features .grid-div {
+  width: 35%;
+  color:white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 7px;
+  /* border-radius: 17%; */
+  background-color: #0d4b85;
+  box-shadow:10px 20px 30px palevioletred;
+  grid-column-gap: 10px;
+  margin-left: 10%;
+}
+
+.home .body-div .left-div .features .grid-div p {
+  font-size: 20px;
+}
+
+.home .body-div .left-div .features .grid-div p {
+  margin: auto 0;
+}
+
+.home .body-div .left-div .features .grid-div svg {
+  font-size: 30px;
+}
+.body-div{
+  /* background-image:  url('https://www.avepoint.com/blog/wp-content/uploads/2016/12/Microsoft-Teams_Webinar-1-700x300.jpg'); */
+  /* opacity: 0.5; */
+  width: 100%;
+
+}
+
+.home .body-div .right-div {
+  width: 60%;
+}
+
+.home .body-div .right-div video {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .home .body-div {
+    height: 87vh;
+  }
+  /* .home .body-div . {
+    display: block;
+  } */
+  .home .body-div .left-div {
+    z-index: 1;
+    margin-left: 20%;
+    width: 100%;
+  }
+  .home .body-div .left-div .contents {
+    width: 100%;
+    margin-left: 10%;
+    top: 25%;
+  }
+  /* .home .body-div .left-div .contents .note-img {
+    width: 50%;
+    height: 50%;
+    opacity: 0.15;
+    top: 40%;
+    left: 65%;
+    position: absolute;
+    transform: rotate(-30deg);
+  } */
+  /* .home .body-div .left-div .contents .chat-img {
+    width: 90%;
+    height: 70%;
+    opacity: 0.15;
+    top: 60%;
+    right: 55%;
+    position: absolute;
+  } */
+  /* .home .body-div .left-div input{
+    margin-left: 149px;
+  } */
+  .home .body-div .left-div input {
+    padding: 1rem;
+    margin-left: 38%;
+    border: 2px solid #d1d1d1;
+    align-items: center;
+    outline: none;
+    border-radius: 10px;
+    width: 55%;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    
+
+  }
+  .home .body-div .left-div input:focus {
+    border-color: #2cbdc7;
+  }
+  .home .body-div  .left-div .home-btn {
+    position: relative;
+    padding: 0.5rem;
+    z-index: 1;
+   
+  }
+  .home .body-div .left-div .home-btn:hover {
+    background-color: #1b8299;
+    color: white;
+  }
+  .home .body-div  .left-div .start-meet {
+    padding: 2rem 1rem;
+  }
+  .home .body-div .left-div .join-meet {
+    width: 58%;
+    margin-left: 20%;
+   
+
+    /* display: flex; */
+    margin-left: 20%;
+    padding: 1rem 0;
+    margin-top: 3%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home .body-div .left-div .features {
+    margin: auto;
+    padding: 1rem;
+    margin-left: 1rem;
+  }
+  .home .body-div .left-div .features .grid-div {
+    /* width: 90%; */
+    margin-left: 10%;
+  }
+  .home .body-div .right-div {
+    width: 100%;
+  }
+  .home .body-div .right-div video {
+    z-index: -1;
+    width: 100%;
+  }
+}
