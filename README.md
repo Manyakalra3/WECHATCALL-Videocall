@@ -23,7 +23,7 @@
 * Reactjs
   * *Simple peer*
   * *Socket-io Client*
-  * * Material-ui*
+  * *Material-ui*
   * *quill*
   * *react-router*
   
@@ -34,3 +34,9 @@
  * *firebase*
  * *webrtc*
  * *firebase*
+
+
+ ## DEPLOYMENT
+ * **BACKENED:-Microsoft Azure**
+ * **FRONTENED:- Microsoft Azure**
+ 
