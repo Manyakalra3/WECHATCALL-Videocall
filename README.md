@@ -1,4 +1,5 @@
 # WECHATCALL-Videocall
+### WECHATCALL is video-calling app developed under Microsoft Engage Program 2021
 ## PROJECT LINK :- https://wecallchat3.azurewebsites.net/
 ### FEATURES:-
 * Videocall
@@ -20,6 +21,16 @@
 ## TechStacks Used:-
 * Nodejs
 * Reactjs
-* wwebrtc
-* peerjs
-* sockets
+  * *Simple peer*
+  * *Socket-io Client*
+  * * Material-ui*
+  * *quill*
+  * *react-router*
+  
+* SERVER
+ * *nodejs*
+ * *peerjs*
+ * *socket-io*
+ * *firebase*
+ * *webrtc*
+ * *firebase*
