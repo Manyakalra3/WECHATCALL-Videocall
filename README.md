@@ -1,6 +1,6 @@
 # WECHATCALL-Videocall
 
-## PROJECT LINK :- https://wecallchat3.azurewebsites.net/
+## PROJECT LINK :- https://wecallchat.netlify.app
 ### Presentation Demo here :- https://docs.google.com/presentation/d/1PCeb48_MtmtqYNCw7GBzODFy7z901yppGFmB59usp_8/edit?usp=sharing
 ### FEATURES:-
 * Videocall
